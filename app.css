@@ -1,0 +1,26 @@
+@import url('http://fonts.googleapis.com/css?faimily=Lato');
+
+body {
+  background-color: rgb(30, 30, 30);
+  color: rgb(200, 200, 200);
+  font-family: 'Lato', sans-serif;
+  margin:0;
+  padding:0;
+}
+
+#web-animation {
+  background-color: black; 
+  border: crimson solid 4px;
+  width: 200px;
+  height: 200px;
+  margin: 5rem;
+}
+
+.animation-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  max-width: 90%;
+  margin: 0 auto;
+}
